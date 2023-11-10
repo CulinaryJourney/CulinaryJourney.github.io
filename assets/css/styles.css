@@ -91,14 +91,16 @@ cursor: URL("../../assets/img/cursor/cursor-click.png"),active;
 /* Hero section */
 .hero {
 min-height: 750px;
-background: url("../../assets/img/hero-min.gif") center center;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+background: url("../../assets/img/credit.png") center center;
+-webkit-background-size: 30%;
+-moz-background-size: 30%;
+-o-background-size: 30%;
+background-size: 30%;
+background-blend-mode: darken;
 position: relative;
 text-align: center;
-align-items: center;
+align-items: top;
+background-repeat: repeat;
 }
 .hero .down-arrow a{
 color: #fff;

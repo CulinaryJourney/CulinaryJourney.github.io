@@ -32,10 +32,10 @@
         <div class="hero-text" id="fadein hero-overlay">
           <h1>Cat's Team
           </h1>
-          <h2>Drag & Slice: <a style = "color: rgb(255, 255, 255);">Culinary Journey</a>
+          <h2>Drag & Slice: <a style = "color: rgb(255, 255, 255);" >Culinary Journey</a>
           </h2>
           <br>
-          <a href="#" class="btn" style="color: rgb(134, 134, 218);">Download Game
+          <a href="/assets/game/DragAndSliceCulinaryJourney.apk" class="btn" style="color: rgb(125, 155, 255);" download> DOWNLOAD <i>(APK)</i>
           </a>
         </div>
         </div>
@@ -142,6 +142,11 @@
       </div>
       </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+      document.getElementById('downloadLink').addEventListener('click', function() {
+        // Đường dẫn tới tệp tin trên máy chủ
+        var fileUrl = '/assets/game/DragAndSliceCulinaryJourney.apk';
+        this.href = fileUrl;
+    });
     </script>
     </body>
   </html>
